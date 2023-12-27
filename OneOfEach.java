@@ -21,6 +21,6 @@ public class OneOfEach {
 			rand = Math.random();
 			}
 		System.out.println(str);
-		System.out.println("You Made it... and now you have " + (girls + boys) + " children");
+		System.out.println("You Made it... and you now have " + (girls + boys) + " children.");
 	}
 }
