@@ -4,16 +4,16 @@
 public class DamkaBoard {
 	public static void main(String[] args) {
 		int num = Integer.parseInt(args[0]);
-		int i = 1;
-		int q = 1;
-		String damkaRow = "";
+		int i = 2;
+		int q = 2;
+		String damkaRow = "*";
 		while (i <= num) {
-			damkaRow = damkaRow + "* ";
+			damkaRow = damkaRow + " *";
 			i = i +1;
 		}
-		while (q <= num){
-			if(q % 2 != 0){
-				System.out.println(damkaRow);
+		while (q <= num + 1){
+			if(q % 2 == 0){
+				System.out.println(damkaRow + " ");
 			}
 			else {
 				System.out.println(" " + damkaRow);
