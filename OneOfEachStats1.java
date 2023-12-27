@@ -10,9 +10,9 @@ public class OneOfEachStats1 {
 		int boys, girls, children;
 		double averageChildren = 0;
 		int couplesWithTwo = 0, couplesWithThree = 0, couplesWithFourOrMore = 0;
-		for (int i=0; i < T; i++){
+		for (int i = 0; i < T; i++){
 			boys = girls = 0;
-			while(boys <1 || girls <1){
+			while(boys < 1 || girls < 1){
 				double rand = Math.random();
 				if(rand < 0.5){
 					boys++;
